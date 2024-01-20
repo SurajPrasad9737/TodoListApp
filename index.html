@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Todo_logo_simple_purple_color_heart_a_per.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>TODOLIST</h1>
+        </div>
+        <div class="input-box">
+            <input type="text" id="text" placeholder="whats needs to be done?" />
+            <button type="button"><i class="fa-regular fa-plus icon"></i></button>
+        </div>
+        <div id="task">
+            <p id="pending-task">You have <span class="count-value">0
+                </span> task(s) to complete.
+            </p>
+        </div>
+    </div>
+    <div class="box">
+        <ul></ul>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>

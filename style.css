@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: #2EB5AA;
+}
+.container{
+    margin:50px auto;
+    background-color: white;
+    width: 75%;
+    height: 200px;
+}
+
+.heading{
+    /* box-shadow: 2px 2px 8px #2EB5AA; */
+    color: black;
+    margin:15px ;
+    padding-top: 15px;
+    width: 75%;
+    text-transform: uppercase;
+       background-image: linear-gradient(
+         -225deg,
+         #231557 0%,
+         #44107a 29%,
+         #ff1361 67%,
+         #fff800 100%
+       );
+       background-size: auto auto;
+       background-clip: border-box;
+       background-size: 200% auto;
+       color: #fff;
+       background-clip: text;
+       transform: transparent;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       animation: textclip 2s linear infinite;
+       display: inline-block;
+           font-size: 18px;
+     }
+     
+h1{
+    box-shadow: 2px 2px 8px #226660;
+    
+}
+input{
+    margin-top: 5px;
+    font-size: large;
+    position: relative;
+    right: 55px;
+    height: 25px;
+    border-radius: 0%;
+    border: none;
+    padding:12px 20px;
+    margin: 8px 0;
+    transition: 1s;
+    width: 571px;
+    /* box-shadow: 5px 5px 10px 5px #2EB5AA; */
+}
+input:hover{
+    box-shadow: 5px 5px 10px 5px #2EB5AA;
+    border: none;
+}
+button{
+    /* height: 25px; */
+    padding:12px 20px;
+    margin: 8px 0;
+    background-color: #2D9AB5;
+    border: none;
+    color: antiquewhite;
+    transition: 1s;
+    
+}
+button:hover{
+    box-shadow: 5px 5px 10px 5px #f24014;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+  ul{
+    position: relative;
+    color:#540589;
+    left: 30px;
+    list-style: none;
+  }
+  li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+   
+  .red-line {
+    text-decoration: line-through;
+    color: rgb(59, 57, 57);
+}
+button{
+    text-decoration: none;
+}
+ul  li button{
+margin-right: 75px;
+}
+
+ul li{
+    font-size: larger;
+    padding:25px;
+    margin-left: 160px;
+    width:72%;
+}
+li:nth-child(2n){
+    background-color: #fff;
+    color: #0ea500;
+}
+li:nth-child(2n-1){
+    background-color: #ffffff5d;
+    
+    color:rgb(210, 56, 190);
+}
+#task p{
+    font-size: larger;
+    color: rgba(0, 0, 255, 0.507);
+}
